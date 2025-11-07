@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 // URLs configuration
 const FRONTEND_URL = 'https://revenue-earn-nanov1.vercel.app';
 const ADMIN_URL = 'https://revenue-earn-nanov1admin.vercel.app';
-const DASHBOARD_URL = 'https://nanov1.vercel.app';
+const DASHBOARD_URL = 'https://revenue-earn-nanov1.vercel.app';
 
 // Middleware
 app.use(cors({
@@ -674,6 +674,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 module.exports = app;
+
 
 
 
